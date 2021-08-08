@@ -1,0 +1,54 @@
+aside{
+    width: 280px;
+    height: 970px;
+    display: inline-block;
+    position: relative;
+    /* border:1px solid black; */
+    margin-left: 360px;
+}
+div.top{
+    width: 105px;
+    height: 125px;
+    /* border:1px solid black; */
+    color: #5E454B;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+  }
+div.top span.circle{
+    border:3px solid #5E454B;
+    width:25px;
+    height: 25px;
+    border-radius: 25px;
+    display: block;
+    position: absolute;
+    bottom:0px ;
+    left:40px; 
+  }
+  div.top span.triangle{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom:40px ;
+    left:27px;  
+  
+    border-top: 0px solid #5E454B;
+    border-right: 27px solid transparent;
+    border-bottom: 36px solid #5E454B;
+    border-left: 27px solid transparent;
+  }
+  aside  div.cat_top{
+    width:223px;
+    height: 170px;
+    background-image: url("../image/cattop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border:1px solid black; */
+    display: block;
+     position: absolute  ;
+    bottom:0;
+    left:0; 
+  }
