@@ -1,0 +1,205 @@
+main{
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+article{
+  position: relative;
+}
+div.carousel{
+ border: 1px solid black;
+ width: 1200px;
+ height: 800px;
+ display: inline-block;
+ margin: 0;
+ padding: 0;
+}
+div.carousel >div {
+  height: 800px;
+  width: 1200px;
+  display: inline-block;
+  border: 1px solid blue;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  
+}
+ div.carousel  div.banner1{
+  background-image: url("../image/banner1.jpeg");
+}
+div.carousel  div.banner2{
+  background-image: url("../image/banner2.jpg");
+}
+div.carousel  div.banner3{
+  background-image: url("../image/banner3.jpg");
+}
+div.mask::before{
+  content: "";
+  width: 456px;
+  height: 800px;
+  float: left;
+  background-color: rgba(236, 223, 195,0.8);
+  filter:blur(30px);
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+div.mask div.dog_amount ,div.mask div.cat_amount{
+  width:246px;
+  height:55px;
+  border-radius: 34px;
+  border:1px #3EB3B2;
+  display: inline-block;
+  background-color: #ECDFC3;
+  
+}
+div.mask div.dog_amount >a ,div.mask div.cat_amount >a{
+  text-align:center;
+  font-size: 26px;
+  color: #5E454B;
+  text-decoration: none;
+}
+div.mask div.dog_amount::before {
+content: "";
+width:68px;
+height:54px;
+background-repeat: no-repeat;
+background-size: contain;
+margin: 0;
+padding: 0;
+/* border: 1px solid black; */
+background-image: url("../image/dog.png");
+display: inline-block;
+float: left;
+
+}
+div.mask div.cat_amount::before {
+  content: "";
+  width:68px;
+  height:54px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+  background-image: url("../image/cat.png");
+  display: inline-block;
+  float: left;
+  }
+  div.mask{
+    position: absolute;
+    top:0;
+  }
+  div.mask div.dog_amount{
+    position: absolute;
+    top: 21px;
+    left: 10px;
+  }
+  div.mask div.cat_amount{
+    position: absolute;
+    top: 87px;
+    left: 10px;
+  }
+  div.mask div.word{
+    width:400px;
+    height: 290px;
+    border:1px solid #ECDFC3;
+    background-color: #5E454B;
+    border-radius: 20px;
+    position: absolute;
+    top:200px;
+    left:36px;
+  }
+  
+div.mask div.word span.arrow_out{
+  display: inline-block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom:-30px ;
+  left:13px;
+
+  border-top: 30px solid #ECDFC3;
+  border-right: 30px solid transparent;
+  border-bottom: 0px solid black;
+  border-left: 30px solid transparent;
+}   
+div.mask div.word span.arrow_int{
+  display: inline-block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom:-28px ;
+  left:13px;
+    
+  border-top: 30px solid #5E454B;
+  border-right: 30px solid transparent;
+  border-bottom: 0px solid black;
+  border-left: 30px solid transparent;
+} 
+div.mask div.word h1{
+  color:#ECDFC3;
+  font-size: 45px;
+}
+div.mask div.word h2{
+  color:#ECDFC3;
+  font-size: 32px;
+  word-break: keep-all;
+}
+div.mask div.word div.banner1,
+div.mask div.word div.banner2,
+div.mask div.word div.banner3{
+  margin: 5px;
+  position: absolute;
+  top:0;
+  left: 0;  
+}
+div.mask div.cat{
+  width:223px;
+  height: 170px;
+  background-image: url("../image/cat1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform:rotate(-6deg);
+  position: absolute  ;
+  top:620px;
+  left:0;
+} 
+div.scroll{
+  width: 105px;
+  height: 125px;
+  border:1px solid black;
+  color: #5E454B;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: -50px;
+  left: 360px;
+}
+div.scroll span.circle{
+  border:3px solid #5E454B;
+  width:25px;
+  height: 25px;
+  border-radius: 25px;
+  display: block;
+  position: absolute;
+  bottom:50px ;
+  left:40px; 
+}
+div.scroll span.triangle{
+  display: inline-block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom:0px ;
+  left:27px; 
+
+  border-top: 36px solid #5E454B;
+  border-right: 27px solid transparent;
+  border-bottom: 0px solid black;
+  border-left: 27px solid transparent;
+}
