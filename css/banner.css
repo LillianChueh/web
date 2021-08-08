@@ -17,7 +17,7 @@ div.carousel{
 div.carousel >div {
   height: 800px;
   width: 1200px;
-  display: inline-block;
+  /* display: inline-block; */
   border: 1px solid blue;
   background-repeat: no-repeat;
   background-position: left;
@@ -33,6 +33,7 @@ div.carousel >div {
 }
 div.carousel  div.banner2{
   background-image: url("../image/banner2.jpg");
+  
 }
 div.carousel  div.banner3{
   background-image: url("../image/banner3.jpg");
@@ -87,7 +88,6 @@ div.mask div.cat_amount::before {
   padding: 0;
   /* border: 1px solid black; */
   background-image: url("../image/cat.png");
-  display: inline-block;
   float: left;
   }
   div.mask{
@@ -203,3 +203,10 @@ div.scroll span.triangle{
   border-bottom: 0px solid black;
   border-left: 27px solid transparent;
 }
+.banner2{
+  display: none;
+}
+.banner3{
+  display: none;
+}
+
