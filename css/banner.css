@@ -1,10 +1,8 @@
-main{
-  width: 1200px;
-  margin: 0 auto;
-  border: 1px solid black;
-}
+
 article{
-  position: relative;
+  width: 1200px;
+  height: 800px;
+  margin:0 auto;
 }
 div.carousel{
  border: 1px solid black;
@@ -177,7 +175,7 @@ div.scroll{
   font-size: 30px;
   text-align: center;
   position: absolute;
-  bottom: -50px;
+  bottom: 35px;
   left: 360px;
 }
 div.scroll span.circle{
