@@ -1,5 +1,5 @@
 div.home_adopt{
-    border:1px solid black;
+    /* border:1px solid black; */
     width: 1045px;
     height: 865px;
     background-color: #ECDFC3;
@@ -54,7 +54,7 @@ div.find:hover div.find_link{
 }
 
 section.animal_flex{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 1045px;
     display: flex;
     flex-wrap:wrap;
@@ -80,7 +80,7 @@ div.adopt_select a.adopt_pick >img{
 }
 
 div.adopt_select div.select_word{
-    border:1px solid black;
+    /* border:1px solid black; */
     width: 300px;
     height: 53px;
     background-color: #E7F5DE;
