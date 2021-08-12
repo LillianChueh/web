@@ -103,4 +103,5 @@ div.list a.heart{
   position: absolute;
   right: 0px;
   top:40px;
+  cursor: pointer;
 }
