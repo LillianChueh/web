@@ -1,7 +1,9 @@
 article{
   width: 1200px;
   height: 800px;
-  margin:0 auto;
+  margin-left: 360px;
+  margin-right: 360px;
+  position: relative;
 }
 div.carousel{
  border: 1px solid black;
