@@ -20,6 +20,12 @@ div.home_title{
     top:79px;
     left:37px;
 }
+div.home_title >div{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+}
 
 div.find{
     /* border:1px solid black; */
