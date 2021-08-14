@@ -4,7 +4,7 @@ nav.nav{
   width: 1200px;
   height: 120px;
   margin: 0 auto;
-  
+  position: relative;
 }
 div.logo{
   background-image: url("../image/logo.png");
@@ -100,8 +100,9 @@ div.list a.heart{
   width:55px;
   height: 55px;
   margin: 5px;
+  display: inline-block;
   position: absolute;
-  right: 0px;
+  right: -0px;
   top:40px;
   cursor: pointer;
 }
