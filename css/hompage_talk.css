@@ -3,6 +3,7 @@ article.homepage_talk{
     height: 960px;
     margin:0 auto;
     background-color: #ECDFC3;
+    order:4;
 }
 article.homepage_talk div.talk_back{
     width: 1047px;

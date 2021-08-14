@@ -1,7 +1,9 @@
 article.adopt{
     width: 1200px;
+    height:975px;
     margin: 0 auto;
     position: relative;
+    order: 4;
 }
 
 div.home_adopt{

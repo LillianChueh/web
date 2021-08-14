@@ -4,7 +4,9 @@ nav.nav_on{
   width: 1200px;
   height: 100px;
   margin: 0 auto;
-  position: relative;
+  position:relative; 
+  order:3;  
+  z-index: 10;
 }
 nav.nav_on div.logo{
   background-image: url("../image/logo.png");

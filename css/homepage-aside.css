@@ -1,11 +1,17 @@
-aside{
-    width: 280px;
-    height: 970px;
-    display: inline-block;
-    position: absolute;
-    /* border:1px solid black; */
-    z-index: 1;
-    left: 0;
+aside {
+  width: 1200px;
+  margin: 0 auto;
+  display: inline-block;
+  order:4;
+}
+aside div.aside{
+  width: 280px;
+  height: 930px;
+  display: inline-block;
+  position: absolute;
+  /* border:1px solid black; */
+  z-index: 1;
+  left: 0;
 }
 div.top{
     width: 105px;

@@ -1,7 +1,9 @@
 article.homenews{
     width: 1200px;
+    height:865px;
     margin: 0 auto;
     position: relative;
+    order:5;
 }
 
 article.homenews div.news_container{

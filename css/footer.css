@@ -3,6 +3,7 @@ article.footer{
     height: 585px;
     margin: 0 auto;
     background-color: rgba(223, 202,156, 26%) ;
+    order: 6;
 }
 
 article.footer div.logo{
