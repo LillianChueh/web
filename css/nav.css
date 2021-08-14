@@ -18,6 +18,7 @@ div.logo{
 div.list{
   float:right;
   display: inline-block;
+  z-index: 2;
 }
 ul.nav_list{
   margin-right:20px;
@@ -60,15 +61,17 @@ div.adoption, div.health, div.location{
   height: 120px;
 }
 
-ul.adoption_list , ul.health_list, ul.location_list{
+ul.adoption_list ,
+ul.health_list,
+ul.location_list{
   margin:0;
   padding:0;
   position:absolute;
   right:0;
   top:90%;
   background-color: #e7f5de;
-
-  display: none;
+  z-index: 2;
+  /* display: none; */
 }
 ul.adoption_list >li , ul.health_list >li, ul.location_list >li{
   list-style:none;
@@ -95,14 +98,14 @@ div.adoption::after, div.health::after, div.location::after{
   border-bottom:0px solid blue;
   display:inline-block;
 }
-div.list a.heart{
+nav.nav div.list a.heart{
   color:red;
   width:55px;
   height: 55px;
   margin: 5px;
   display: inline-block;
   position: absolute;
-  right: -0px;
+  right: -40px;
   top:40px;
   cursor: pointer;
 }

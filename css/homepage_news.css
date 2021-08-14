@@ -1,10 +1,17 @@
 article.homenews{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+article.homenews div.news_container{
     border:1px solid black;
     width: 1045px;
     height: 865px;
     background-color: #ECDFC3;
     margin-left: 360px;
-    position: relative;
+    position: absolute;
+    right: 0;
     /* font-size: 0; */
 }
 div.newstitle{

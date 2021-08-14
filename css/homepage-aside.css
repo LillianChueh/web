@@ -2,9 +2,10 @@ aside{
     width: 280px;
     height: 970px;
     display: inline-block;
-    position: relative;
+    position: absolute;
     /* border:1px solid black; */
-    margin-left: 360px;
+    z-index: 1;
+    left: 0;
 }
 div.top{
     width: 105px;

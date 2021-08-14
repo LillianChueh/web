@@ -9,7 +9,7 @@ article.bnner div.banner_container{
   top:120px;
 }
 div.carousel{
- border: 1px solid black;
+ /* border: 1px solid black; */
  width: 1200px;
  height: 800px;
  display: inline-block;
@@ -20,7 +20,7 @@ div.carousel >div {
   height: 800px;
   width: 1200px;
   /* display: inline-block; */
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;

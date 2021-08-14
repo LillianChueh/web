@@ -4,7 +4,7 @@ nav.nav_on{
   width: 1200px;
   height: 100px;
   margin: 0 auto;
-  
+  position: relative;
 }
 nav.nav_on div.logo{
   background-image: url("../image/logo.png");
@@ -70,7 +70,7 @@ ul.adoption_list , ul.health_list, ul.location_list{
   top:90%;
   background-color: #e7f5de;
 
-  display: none;
+  /* display: none; */
 }
 ul.adoption_list >li , ul.health_list >li, ul.location_list >li{
   list-style:none;
@@ -97,13 +97,13 @@ div.adoption::after, div.health::after, div.location::after{
   border-bottom:0px solid blue;
   display:inline-block;
 }
-div.list a.heart{
+nav.nav_on div.list a.heart{
   color:red;
   width:55px;
   height: 55px;
   margin: 5px;
   position: absolute;
-  right: 0px;
+  right: -40px;
   top:40px;
   cursor: pointer;
 }
