@@ -4,15 +4,16 @@ article.homepage_talk{
     margin:0 auto;
     background-color: #ECDFC3;
     order:4;
+    position: relative;
 }
 article.homepage_talk div.talk_back{
     width: 1047px;
     height: 860px;
     display: inline-block;
-    float: right;
     border:1px solid green;
     background-color: white;
-    position: relative;
+    position: absolute;
+    right:0;    
 }
 div.talk_back div.circle{
     width: 400px;
@@ -21,36 +22,43 @@ div.talk_back div.circle{
     border:1px solid blue;
     position: absolute;
     top: 320px;
-    left:335px;
-}
-div.talk_back div.talk{
-position: relative;
-}
-div.talk_picture {
+    left:200px;
+     
+
+ }
+
+
+div.talk_picture div.picture{
     width: 240px;
     height: 240px;
     border-radius: 150px;
     display: inline-block;
     overflow: hidden;
 }
-div.talk_picture > img{
+div.talk_picture div.picture > img{
     max-height: 100%;
     margin: auto;
 }
 div.talk_picture_on {
+    z-index: 5;
+}
+div.talk_picture_on div.picture{
     width: 450px;
     height: 450px;
     border-radius: 300px;
     display: inline-block;
+    /* border: 1px solid blue; */
     overflow: hidden;
 }
-div.talk_picture_on > img{
+div.talk_picture_on div.picture > img{
     max-height: 100%;
     margin: auto;
 }
+div.talk_picture  div.talkword{
+    display: none;
+}
 
-
-div.talk_picture_on div.talkword{
+div.talk_picture_on  div.talkword{
     width: 450px;
     height: 115px;
     background-color: #3EB3B2;
@@ -64,12 +72,11 @@ div.talk_picture_on div.talkword{
     top:100px;
     left:430px;
 }
-div.talk_picture_on div.talkword::before{
+div.talk_picture_on  div.talkword::before{
     content: "";
     width: 0px;
     height: 0px;
     display: inline-block;
-
     position: absolute;
     left:-15px;
     top:30px;
@@ -80,3 +87,121 @@ div.talk_picture_on div.talkword::before{
 }
 
 
+
+
+
+
+div.talk1_talk {
+    width: 450px;
+    height: 450px;
+    /* border:1px solid red; */
+    display: inline-block;
+    position: absolute;
+    top:200px;
+    left:20px;
+}
+div.talk1_talk > div{
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+}
+div.talk2_talk {
+    width: 450px;
+    height: 450px;
+    /* border:1px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 170px;
+    top:50px;
+}
+div.talk2_talk > div{
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
+div.talk3_talk {
+    width: 450px;
+    height: 450px;
+    /* border:1px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 270px;
+    top:20px;
+}
+div.talk3_talk > div{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+div.talk4_talk {
+    width: 450px;
+    height: 450px;
+    /* border:1px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 120px;
+    top:50px;
+}
+div.talk4_talk > div{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+div.talk5_talk {
+    width: 450px;
+    height: 450px;
+    /* border:1px solid red; */
+    display: inline-block;
+    position: absolute;
+    top:200px;
+    right:80px;
+}
+div.talk5_talk > div{
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+}
+div.talk6_talk {
+    width: 450px;
+    height: 450px;
+    /* border:1px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 170px;
+    top:350px;
+}
+div.talk6_talk > div{
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
+div.talk7_talk {
+    width: 450px;
+    height: 450px;
+    /* border:1px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 110px;
+    top:350px;
+}
+div.talk7_talk > div{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+div.talk8_talk {
+    width: 450px;
+    height: 450px;
+    /* border:1px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 270px;
+    top:390px;
+}
+div.talk8_talk > div{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
