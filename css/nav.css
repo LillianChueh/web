@@ -61,9 +61,10 @@ div.adoption, div.health, div.location{
   height: 120px;
 }
 
-ul.adoption_list ,
-ul.health_list,
-ul.location_list{
+/* 下拉選單 設定click啟動*/
+nav.nav ul.adoption_list ,
+nav.nav ul.health_list,
+nav.nav ul.location_list{
   margin:0;
   padding:0;
   position:absolute;
@@ -71,7 +72,7 @@ ul.location_list{
   top:90%;
   background-color: #e7f5de;
   z-index: 2;
-  /* display: none; */
+  display: none;
 }
 ul.adoption_list >li , ul.health_list >li, ul.location_list >li{
   list-style:none;
