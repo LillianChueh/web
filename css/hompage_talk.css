@@ -41,6 +41,11 @@ div.talk_picture div.picture > img{
 }
 div.talk_picture_on {
     z-index: 5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 900px;
+    height: 460px;
 }
 div.talk_picture_on div.picture{
     width: 450px;
@@ -92,13 +97,14 @@ div.talk_picture_on  div.talkword::before{
 
 
 div.talk1_talk {
-    width: 450px;
-    height: 450px;
+    width: 900px;
+    height: 460px;
     /* border:1px solid red; */
     display: inline-block;
     position: absolute;
     top:200px;
-    left:20px;
+    left:0px;
+    overflow: hidden;
 }
 div.talk1_talk > div{
     position: absolute;
@@ -106,19 +112,19 @@ div.talk1_talk > div{
     left: 0px;
 }
 div.talk2_talk {
-    width: 450px;
-    height: 450px;
+    width: 900px;
+    height: 460px;
     /* border:1px   solid red; */
     display: inline-block;
     position: absolute;
-    left: 170px;
-    top:50px;
-    
+    left: 50px;
+    top:100px;
+    overflow: hidden;
 }
-div.talk2_talk > div{
+div.talk2_talk div.talk_picture > div{
     position: absolute;
-    bottom: 100px;
-    right: 200px;
+    top: 20px;
+    left: 80px;
 }
 div.talk2_talk > div div.talkword{
     position: absolute;
@@ -127,93 +133,95 @@ div.talk2_talk > div div.talkword{
 }
 
 div.talk3_talk {
-    width: 450px;
-    height: 450px;
+    width: 900px;
+    height: 460px;
     /* border:1px solid red; */
     display: inline-block;
     position: absolute;
-    left: 270px;
+    left: 100px;
     top:20px;
 }
-div.talk3_talk > div{
+div.talk3_talk div.talk_picture > div{
     position: absolute;
     top: 50px;
-    right: 100px;
+    left: 260px;
 }
 div.talk4_talk {
-    width: 450px;
-    height: 450px;
-    /* border:1px solid red; */
+    width: 900px;
+    height: 460px;
+    /* border:1px solid blue; */
     display: inline-block;
     position: absolute;
-    right: 120px;
-    top:50px;
+    right: 30px;
+    top:100px;
+    
 }
-div.talk4_talk > div{
+div.talk4_talk div.talk_picture > div{
     position: absolute;
-    bottom: 100px;
-    right: 100px;
+    top: 20px;
+    right: 190px;
 }
 
+
 div.talk5_talk {
-    width: 450px;
-    height: 450px;
-    /* border:1px solid red; */
+    width: 900px;
+    height: 460px;
+    /* border:1px solid green; */
     display: inline-block;
     position: absolute;
     top:200px;
-    right:80px;
+    right:0px;
 }
 div.talk5_talk > div{
     position: absolute;
     bottom: 100px;
-    right: 0px;
+    right: 120px;
 }
 div.talk6_talk {
-    width: 450px;
-    height: 450px;
-    /* border:1px solid red; */
+    width: 900px;
+    height: 460px;
+    /* border:1px solid black; */
     display: inline-block;
     position: absolute;
-    left: 170px;
+    left: 50px;
     top:350px;
 }
 div.talk6_talk > div{
     position: absolute;
-    bottom: 100px;
-    right: 200px;
+    bottom: 70px;
+    left: 80px;
 }
 div.talk7_talk {
-    width: 450px;
-    height: 450px;
+    width: 900px;
+    height: 460px;
     /* border:1px solid red; */
     display: inline-block;
     position: absolute;
-    right: 110px;
+    right: 30px;
     top:350px;
 }
 div.talk7_talk > div{
     position: absolute;
-    bottom: 100px;
-    right: 100px;
+    bottom: 70px;
+    right: 190px;
 }
 
 div.talk8_talk {
-    width: 450px;
-    height: 450px;
+    width: 900px;
+    height: 460px;
     /* border:1px solid red; */
     display: inline-block;
     position: absolute;
-    left: 270px;
+    left: 100px;
     top:390px;
 }
-div.talk8_talk > div{
+div.talk8_talk div.talk_picture > div{
     position: absolute;
     bottom: 50px;
-    right: 100px;
+    left: 260px;
 }
-div.talk8_talk > div div.talkword{
+/* div.talk8_talk div.talk_picture > div div.talkword{
     position: absolute;
     left:400px;
     top:20px;
-}
+} */
