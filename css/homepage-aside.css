@@ -1,17 +1,20 @@
 aside {
-  width: 1200px;
+  width: 280px;
   margin: 0 auto;
   display: inline-block;
-  order:4;
+  /* position: relative; */
+  bottom: 0;
+  left:10px;
 }
 aside div.aside{
   width: 280px;
   height: 930px;
   display: inline-block;
-  position: absolute;
+  position: fixed;
   /* border:1px solid black; */
-  z-index: 1;
-  left: 0;
+  z-index: 10;
+  bottom: 0px;
+  left: 0px;
 }
 div.top{
     width: 105px;

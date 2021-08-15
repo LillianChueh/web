@@ -10,7 +10,7 @@ article.homepage_talk div.talk_back{
     width: 1047px;
     height: 860px;
     display: inline-block;
-    border:1px solid green;
+    /* border:1px solid green; */
     background-color: white;
     position: absolute;
     right:0;    
@@ -34,6 +34,7 @@ div.talk_picture div.picture{
     border-radius: 150px;
     display: inline-block;
     overflow: hidden;
+    
 }
 div.talk_picture div.picture > img{
     max-height: 100%;
@@ -52,7 +53,7 @@ div.talk_picture_on div.picture{
     height: 450px;
     border-radius: 300px;
     display: inline-block;
-    /* border: 1px solid blue; */
+    border: 5px solid #3EB3B2;
     overflow: hidden;
 }
 div.talk_picture_on div.picture > img{
@@ -125,6 +126,7 @@ div.talk2_talk div.talk_picture > div{
     position: absolute;
     top: 20px;
     left: 80px;
+    
 }
 div.talk2_talk > div div.talkword{
     position: absolute;

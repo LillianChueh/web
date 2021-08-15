@@ -1,0 +1,116 @@
+nav.nav_on{
+    border: 1px solid #E7F5DE;
+    background: #E7F5DE;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    position:relative; 
+    top: 0;
+    z-index: 10;
+  }
+  nav.nav_on div.logo{
+    background-image: url("../image/logo.png");
+    display: inline-block;
+    width: 360px ;
+    height: 100px;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  nav.nav_on div.list{
+    float:right;
+    display: inline-block;
+  }
+  nav.nav_on div.list ul.nav_list{
+    margin-right:20px;
+    padding:0;
+    font-size:0;
+    left:10px;
+  
+  }
+  ul.nav_list > li{
+    list-style:none;
+    display:inline-block;
+    vertical-align:top;
+    font-size:16px;
+  
+  }
+  nav.nav_on div.list ul.nav_list > li > a{
+    text-decoration: none;
+  /*  border: 1px solid black; */
+    display:inline-block;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:13px;
+    padding-right:13px;
+    color: #5E454B;
+    height: 100px;
+  }
+  nav.nav_on div.list ul.nav_list > li > a:hover{
+    background-color: #5E454B;
+    color: #E7F5D4;
+  }
+  
+  nav.nav_on div.list div.adoption,
+  nav.nav_on div.list div.health,
+  nav.nav_on div.list div.location{
+    /* border:1px solid black; */
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:13px;
+    padding-right:13px;
+    position:relative;
+    color: #5E454B;
+    height: 100px;
+  }
+  
+  /* 下拉選單  設定click啟動*/
+  
+  nav.nav_on ul.adoption_list ,
+  nav.nav_on ul.health_list,
+  nav.nav_on ul.location_list{
+    margin:0;
+    padding:0;
+    position:absolute;
+    right:0;
+    top:90%;
+    background-color: #e7f5de;
+  
+    display: none;
+  }
+  ul.adoption_list >li , ul.health_list >li, ul.location_list >li{
+    list-style:none;
+    width:150px;
+  }
+  ul.adoption_list >li >a , ul.health_list >li >a, ul.location_list >li >a{
+    color: #5E454B;
+    display:inline-block;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+    padding: 10px 5px;
+  }
+  ul.adoption_list >li > a:hover , ul.health_list >li > a:hover, ul.location_list >li > a:hover{
+    background-color: #5E454B;
+    color: #E7F5D4;
+  }
+  
+  div.adoption::after, div.health::after, div.location::after{
+    content:'';
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:10px solid #5E454B;
+    border-bottom:0px solid blue;
+    display:inline-block;
+  }
+  nav.nav_on div.list a.heart{
+    color:red;
+    width:55px;
+    height: 55px;
+    margin: 5px;
+    position: absolute;
+    right: -40px;
+    top:40px;
+    cursor: pointer;
+  }
+  

@@ -1,12 +1,12 @@
-article.footer{
+footer.footer{
     width: 1200px;
     height: 585px;
     margin: 0 auto;
     background-color: rgba(223, 202,156, 26%) ;
-    order: 6;
+    
 }
 
-article.footer div.logo{
+footer.footer div.logo{
     width: 325px;
     height: 90px;
     display: inline-block;
@@ -16,7 +16,7 @@ article.footer div.logo{
     margin-bottom: 20px;
 }
 
-article.footer div.footer_flex{
+footer.footer div.footer_flex{
     display: flex;
     flex-wrap: wrap;
 }

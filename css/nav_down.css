@@ -5,7 +5,7 @@ nav.nav_on{
   height: 100px;
   margin: 0 auto;
   position:relative; 
-  order:3;  
+   
   z-index: 10;
 }
 nav.nav_on div.logo{

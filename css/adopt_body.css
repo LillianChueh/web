@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  nav.nav_on{
+      order: 1;
+  }
+
+  main{
+      order:2;
+  }
+  aside{
+    order:2
+    position: fixed;
+    
+  }
+
+  footer{
+      order: 4;
+  }

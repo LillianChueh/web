@@ -1,0 +1,85 @@
+article.animal_flex{
+    /* border: 1px solid black; */
+    width: 940px;
+    display: flex;
+    flex-wrap:wrap;
+    position: absolute;
+    top:100px;
+    right: 0;
+    
+}
+article.animal_flex div.adopt_select{
+    width:300px;
+    height: 199px;
+    border:1px solid #3EB3B2;
+    border-radius:26px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.adopt_select a.adopt_pick{
+    display: block;
+    font-size: 0;
+}
+div.adopt_select a.adopt_pick >img{
+    max-width: 100%;
+    z-index: 0;
+}
+
+div.adopt_select div.select_word{
+    /* border:1px solid black; */
+    width: 300px;
+    height: 53px;
+    background-color: #E7F5DE;
+    color:#5E454B;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    display: none;
+}
+
+div.adopt_select:hover div.select_word{
+    display: inline-block;
+}
+
+span.heart {
+    color:white;
+    width:25px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+    /* border: 1px solid black; */
+  }
+  span.heart:hover {
+    color:red;
+    width:25px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    /* border: 1px solid black; */
+  }
+
+  span.heart_on {
+    color:red;
+    width:25px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    /* border: 1px solid black; */
+  }
+  

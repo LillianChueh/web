@@ -7,7 +7,7 @@ article.homenews{
 }
 
 article.homenews div.news_container{
-    border:1px solid black;
+    /* border:1px solid black; */
     width: 1045px;
     height: 865px;
     background-color: #ECDFC3;

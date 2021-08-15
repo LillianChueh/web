@@ -1,5 +1,30 @@
 main{
     width: 1200px;
+    height: 1750px;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: #ECDFC3;
   }
+
+div.bread{
+  height: 21px;
+  font-size: 16px;
+  color:#3EB3B2;
+  display: inline-block;
+  position: absolute;
+  top:20px;
+  left:5px;
+}
+
+div.bread >a {
+  font-size: 16px;
+  color:#3EB3B2;
+  text-decoration: none;
+}
+
+div.pagination_block{
+  position: absolute;
+  bottom: 45px;
+  right:300px;
+}

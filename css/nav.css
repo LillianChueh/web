@@ -5,7 +5,6 @@ nav.nav{
   height: 120px;
   margin: 0 auto;
   position: relative;
-  order:1;
 }
 div.logo{
   background-image: url("../image/logo.png");

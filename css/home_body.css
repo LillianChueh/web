@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+nav.nav{
+  order:1;
+}
+
+article.banner{
+  order: 2;
+}
+nav.nav_on{
+  order:3; 
+}
+
+aside{
+  order:4;
+}
+
+article.adopt{
+  order: 4;
+}
+article.homepage_talk{
+  order:4;
+}
+
+article.homenews{
+  order:5;
+}
+
+footer.footer{
+  order: 6;
+}
+
