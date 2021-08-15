@@ -1,0 +1,159 @@
+main{
+    width: 1200px;
+    height: 1750px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: #ECDFC3;
+  }
+
+main div.bread{
+    height: 21px;
+    font-size: 16px;
+    color:#3EB3B2;
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    left:5px;
+  }
+  
+  main div.bread >a {
+    font-size: 16px;
+    color:#3EB3B2;
+    text-decoration: none;
+  }
+
+
+main div.info_photo{
+  width: 730px;
+  height: 700px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  margin-top: 55px;
+  margin-left: 5px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+div.info_photo div.large{
+    width: 712px;
+    height: 550px;
+    border: 1px solid #3EB3B2;
+    border-radius: 75px;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.info_photo div.small{
+    width: 200px;
+    height: 140px;
+    border: 1px solid #3EB3B2;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+div.info_photo img{
+    max-width: 100%;
+}
+
+main div.info_list{
+    width: 445px;
+    height: 523px;
+    display:inline-block;
+    border: 1px solid  #3EB3B2;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+}
+
+div.info_list > ul{
+    list-style: none;
+    /* border: 1px solid #3EB3B2; */
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+div.info_list > ul > li{
+    display: inline-block;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-bottom: 1px solid #3EB3B2;
+}
+
+
+
+div.info_list > ul > li.left{
+width: 160px;
+height: 75px;
+background-color: #E7F5DE;
+border-right:1px solid #3EB3B2;
+color: #3EB3B2;
+float: left;
+}
+div.info_list > ul > li.right{
+    background-color: white;
+    color: #3EB3B2;
+    width: calc( 100% - 160px );
+    height: 75px;
+    }
+
+main div.button button.reserve{
+    width: 246px;
+    height: 136px;
+    border-radius: 45px;
+    font-size: 45px;
+    text-align: center;
+    background-color: #5E454B;
+    color: #ECDFC3;
+    position: absolute;
+    top:615px;
+    right: 216px;
+}
+
+main div.button button.like{
+    width: 190px;
+    height: 82px;
+    border-radius: 25px;
+    font-size: 30px;
+    background-color: #5E454B;
+    color: #ECDFC3;
+    position: absolute;
+    top:669px;
+    right: 15px;
+    display: inline-block;
+    padding-left: 48px;
+    text-align: left;
+}
+div.button button.like div.heart{
+    color:red;
+  width:55px;
+  height: 55px;
+  margin: 5px;
+  display: inline-block;
+  position: absolute;
+}
+
+/* 設定區域線長度 */
+div.line{
+    width: 1070px;
+    font-size: 3px;
+    color: #3EB3B2;
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+
+main article.information{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
