@@ -26,7 +26,7 @@ main article.list{
     width: 1064px;
     height: 1546px;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 28px;
     margin: 0 auto;
     margin-top:105px;
