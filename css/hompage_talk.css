@@ -15,31 +15,28 @@ article.homepage_talk div.talk_back{
     position: absolute;
     right:0;    
 }
-div.talk_back div.circle{
-    width: 400px;
-    height: 140px;
-    border-radius: 400px;
-    border:1px solid blue;
-    position: absolute;
-    top: 320px;
-    left:200px;
-     
-
- }
 
 
+/* 小圖 未加on */
 div.talk_picture div.picture{
     width: 220px;
     height: 220px;
     border-radius: 150px;
     display: inline-block;
     overflow: hidden;
-    
+    cursor: pointer;
 }
 div.talk_picture div.picture > img{
     max-height: 100%;
     margin: auto;
+    filter: blur(2px);
 }
+div.talk_picture  div.talkword{
+    display: none;
+}
+
+
+/* 大圖 _on */
 div.talk_picture_on {
     z-index: 5;
     position: absolute;
@@ -60,9 +57,7 @@ div.talk_picture_on div.picture > img{
     max-height: 100%;
     margin: auto;
 }
-div.talk_picture  div.talkword{
-    display: none;
-}
+
 
 div.talk_picture_on  div.talkword{
     width: 450px;
@@ -97,6 +92,7 @@ div.talk_picture_on  div.talkword::before{
 
 
 
+/* 調整大圖片位置 */
 div.talk1_talk {
     width: 900px;
     height: 460px;
@@ -107,6 +103,8 @@ div.talk1_talk {
     left:20px;
     overflow: hidden;
 }
+
+/* 調整小圖位置 */
 div.talk1_talk > div{
     position: absolute;
     bottom: 100px;
@@ -185,13 +183,13 @@ div.talk6_talk {
     /* border:1px solid black; */
     display: inline-block;
     position: absolute;
-    left: -50px;
+    left: 50px;
     top:250px;
 }
 div.talk6_talk > div{
     position: absolute;
     bottom: 10px;
-    left: 190px;
+    left: 150px;
 }
 
 
