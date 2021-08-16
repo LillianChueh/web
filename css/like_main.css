@@ -1,0 +1,86 @@
+main{
+    width: 1200px;
+    height: 1700px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: #ECDFC3;
+}
+
+main div.bread{
+    height: 21px;
+    font-size: 16px;
+    color:#3EB3B2;
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    left:5px;
+}
+
+main div.bread >a {
+    font-size: 16px;
+    color:#3EB3B2;
+    text-decoration: none;
+}
+main article.list{
+    width: 1064px;
+    height: 1546px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 28px;
+    margin: 0 auto;
+    margin-top:105px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+article.list section.animal{
+width: 915px;
+height: 290px;
+border-radius: 28px;
+border: 1px solid #3EB3B2;
+margin: 0 auto;
+margin-top:30px;
+display: inline-block;
+position: relative;
+}
+
+section.animal div.photo{
+    width: 342px;
+    height:253px;
+    border: 1px solid #3EB3B2;
+    border-radius: 28px;
+    overflow: hidden;
+    margin: 20px;
+    display: inline-block;
+}
+section.animal div.photo >img{
+    max-width: 100%;
+}
+
+section.animal div.word{
+    width: 388px;
+    height: 240px;
+    display: inline-block;
+    line-height: 1.4;
+    font-size: 30px;
+    color: #3EB3B2;
+    position: absolute;
+    top:20px;
+}
+
+button.reserve{
+    width: 163px;
+    height: 73px;
+    border-radius: 35px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #5E454B;
+    position: absolute;
+    bottom:20px;
+    right: 16px;
+}
+button.reserve >a{
+    color: #ECDFC3;
+    text-decoration: none;
+}
