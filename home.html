@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="./css/homepage_news.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/hompage_talk.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 
 
@@ -101,9 +106,9 @@
     <article class="banner">
         <div class="banner_container">
             <div id="cover" class="carousel">
-                <div class="banner1"></div>
-                <div class="banner2"></div>
-                <div class="banner3"></div>
+                <div class="banner1 fade mySlides"></div>
+                <div class="banner2 fade mySlides"></div>
+                <div class="banner3 fade mySlides"></div>
             </div>
             <div class="mask">
                 <div class="dog_amount">
@@ -113,15 +118,15 @@
                     <a href="#">待認養 888</a>
                 </div>
                 <div class="word">
-                    <div class="banner1">
+                    <div class="banner1 dot">
                         <h1>給他一個溫暖的家</h1>
                         <h2>歡迎民眾認養流浪犬貓，領養不棄養</h2>
                     </div>
-                    <div class="banner2">
+                    <div class="banner2  dot">
                         <h1>陪伴與等待</h1>
                         <h2>以同等的愛與關懷，協助流浪動物找到幸福</h2>
                     </div>
-                    <div class="banner3">
+                    <div class="banner3  dot">
                         <h1>安穩的幸福</h1>
                         <h2>幸好遇到了你，給予我溫暖與快樂</h2>
                     </div>
@@ -130,7 +135,7 @@
                 </div>
                 <div class="cat"></div>
             </div>
-            <div class="scroll">
+            <div class="scroll animate__animated animate__pulse animate__infinite" >
                 Scroll
                 <span class="circle"></span>
                 <span class="triangle"></span>
@@ -140,88 +145,12 @@
     
     <!--當滑動到何時出現nav_on
         nav.html 可套用nav 或 nav_on css -->
-    <nav class="nav_on">
-        <div class="logo">
-        </div>
-        <div class=list>
-            <ul class="nav_list">
-                <li>
-                    <div class="adoption">
-                        動物認養
-                        <ul class="adoption_list">
-                            <li>
-                                <a href="#">認養狗狗</a>
-                            </li>
-                            <li>
-                                <a href="#">認養貓咪</a>
-                            </li>
-                            <li>
-                                <a href="#">預約認養</a>
-                            </li>
-                    </ul>
-                    </div>
-                </li>
-                <li>
-                    <div class="health">
-                        醫療資訊
-                        <ul class="health_list">
-                            <li>
-                                <a href="#">動物醫院</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">絕育管理</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">寵物樹葬</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">最新消息</a>
-                </li>
-                <li>
-                  <div class="location">
-                        各區動物之家
-                        <ul class="location_list">
-                            <li>
-                                <a href="#">瑞芳動物之家</a>
-                            </li>
-                            <li>
-                                <a href="#">三芝動物之家</a>
-                            </li>
-                            <li>
-                                <a href="#">淡水動物之家</a>
-                            </li>
-                            <li>
-                                <a href="#">五股動物之家</a>
-                            </li>
-                            <li>
-                                <a href="#">八里動物之家</a>
-                            </li>
-                            <li>
-                                <a href="#">新店動物之家</a>
-                            </li>
-                            <li>
-                                <a href="#">中和動物之家</a>
-                            </li>
-                            <li>
-                                <a href="#">板橋動物之家</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <a href="#" class="heart">
-            <i class="fas fa-heart"></i>
-            </a>
-        </div>
-    </nav>
+    
         
         <!-- 側邊top 使用homepage_aside檔案-->
     <aside class=>
         <div class="aside">
-            <div class="top">
+            <div class="top the_block animate__animated animate__shakeY animate__infinite">
                 Top
                 <span class="circle"></span>
                 <span class="triangle"></span>
@@ -649,6 +578,38 @@
     
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"> </script>
-    
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          slides[slideIndex-1].style.display = "block";  
+          setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+
+        let wordIndex = 0;
+        wordSlides();
+
+        function wordSlides() {
+          var a;
+          let slides = document.getElementsByClassName("mySlides");
+          let word = document.getElementsByClassName("dot");
+          for (a = 0; a < word.length; a ++) {
+            word[a].style.display = "none";  
+          }
+          wordIndex++;
+          if (wordIndex > word.length) {wordIndex = 1}    
+          word[wordIndex-1].style.display = "block";  
+          setTimeout(wordSlides, 3000); // Change image every 2 seconds
+        }
+        </script>
 </body>
 </html>

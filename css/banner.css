@@ -182,6 +182,7 @@ div.scroll{
   position: absolute;
   bottom: 35px;
   left: 360px;
+  animation-duration: 2s;
 }
 div.scroll span.circle{
   border:3px solid #5E454B;
@@ -206,10 +207,40 @@ div.scroll span.triangle{
   border-bottom: 0px solid black;
   border-left: 27px solid transparent;
 }
-.banner2{
+
+.banner1{
+  display: none;
+}
+ .banner2{
   display: none;
 }
 .banner3{
   display: none;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0s;
+  animation-timing-function: linear;
+  display: none;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+ .dot {
+  animation-name: fadeword;
+  animation-duration: 0s;
+  animation-timing-function: linear;
+}
+
+
+@keyframes fadeword {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
