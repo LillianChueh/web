@@ -1,6 +1,6 @@
 main{
     width: 1200px;
-    height: 1750px;
+    /* height: 2000px; */
     margin: 0 auto;
     /* border: 1px solid black; */
     position: relative;
@@ -157,3 +157,72 @@ main article.information{
     padding: 70px;
 }
 
+main article.information h1{
+    font-size: 30px;
+    color: #5E454B;
+}
+
+article.information div.table{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    border:1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size: 0;
+}
+ div.table > ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     font-size: 0;
+     width: 100%;
+     height: 50%;
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+ }
+
+ div.table > ul > li{
+     font-size: 20px;
+     background-color: white;
+     color:#5E454B;
+     display: inline-block;
+     height: 50px;
+     width: 125px;
+     border:1px solid blue;
+     margin: 0;
+     padding: 10px;
+     
+ }
+
+ div.table > ul > li.cat{
+     background-color: #FEDEF0;
+ }
+div.table ul.down > li > div{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+article.information div.detail{
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #5E454B;
+    line-height: 1.8;
+}
+
+div.detail div.story{
+    width: 800px;
+    margin-top: 50px;
+    word-break: keep-all;
+}
+
+div.location div.map iframe{
+    width:1068px;
+    height: 400px;
+    margin: 0 auto;
+}
