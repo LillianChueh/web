@@ -111,10 +111,14 @@ main div.button button.reserve{
     font-size: 45px;
     text-align: center;
     background-color: #5E454B;
-    color: #ECDFC3;
+    
     position: absolute;
     top:615px;
     right: 216px;
+}
+button.reserve >a{
+    color: #ECDFC3;
+    text-decoration: none;
 }
 
 main div.button button.like{
