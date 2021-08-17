@@ -57,3 +57,20 @@ article.banner div.wave{
       }
 
   } 
+
+article.banner div.news_title{
+    width: 290px;
+    height: 95px;
+    text-align: center;
+    font-size: 40px;
+    color: #5E454B;
+    background-color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 455px;
+    z-index: 3;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
