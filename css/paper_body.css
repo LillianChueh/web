@@ -1,0 +1,22 @@
+{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  nav.nav_on{
+    order:1;
+  }
+  article.banner{
+    order:2;
+  }
+  main{
+      order:3;
+  }
+  footer{
+      order: 4;
+  }
