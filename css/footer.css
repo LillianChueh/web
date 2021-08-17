@@ -14,6 +14,7 @@ footer.footer div.logo{
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 footer.footer div.footer_flex{
@@ -36,6 +37,7 @@ div.home_info div.fb{
     font-size: 43px;
     display: inline-block;
     /* border: 1px solid black; */
+    margin-left: 20px;
 }
 
 div.footer_flex div.home_info  >h1{
@@ -56,5 +58,6 @@ div.footer_flex div.home_info  >h2{
     margin: 0;
     line-height: 1.5;
     word-break: keep-all;
+    padding-left: 20PX;
 }
 
