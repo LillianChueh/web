@@ -119,8 +119,13 @@
                 </div>
             </section>
 
-            <!-- 表單區 -->
+            <!-- 表單區-->
             <section class="form">
+
+                <!-- 送出表單後顯示預約資訊 _on-->
+                <div class="cover"></div>
+                
+                
                 <h1>填寫預約表單</h1>
                 <hr>
 
@@ -139,21 +144,139 @@
                 <label for="female" name="gender">女</label>
                 <br>
 
-                <label for="date">出生年月日:</label>
+                <label for="birthday">出生年月日:</label>
+                <input type="date" id="birthday">
+                <br>
+
+                <label for="phone">手機號碼:</label>
+                <input type="text id="phone" placeholder="0912345678">
+                <br>
+
+                <label for="date">預約日期:</label>
                 <input type="date" id="date">
                 <br>
+
+                <label for="time">預約時段:</label>
+                <select name="time">
+                    <option value="morning">上午</option>
+                    <option value="moon">下午</option>
+                </select>
                 
+                <div class="check">
+                    <input type="checkbox" value="1" >
+                    <label>已詳閱且符合認養條件</label>
+                </div>
 
-
-
-
+                       
                 <button class="reserve"type="submit">
                     送出預約
                 </button>
             </section>
 
+            <!-- 認養條件 -->
+            <section class="condition">
+                <h1>認養條件</h1>
+                <hr>
+                <div class="dog">
+                    <h2>想認養狗狗的民眾請注意，你需要：</h2>
+                    <ul>
+                        <li>須年滿20歲並攜帶身份證件</li>
+                        <li>無動物保護法規禁止認養動物之條件者</li>
+                        <li>辦理寵物登記及施打狂犬病疫苗</li>
+                        <li>攜帶牽繩，並依交通工具及犬隻大小自備運輸籠<br>
+                            (提醒：狗狗未使用運輸籠並站立於機車上是危險的。)</li>
+                    </ul>
+                </div>
 
+                <div class="dog">
+                    <h2>想認養貓咪的民眾請注意，你需要：</h2>
+                    <ul>
+                        <li>須年滿20歲並攜帶身份證件</li>
+                        <li>無動物保護法規禁止認養動物之條件者</li>
+                        <li>準備"硬殼式"外出籠</li>
+                        <li>紗窗(門)做鐵網防護或陽台圍籬網(防止脫逃措施)</li>
+                    </ul>
+                </div>                
+            </section>
         </article>
+
+        <article class="step">
+            <h1>認養步驟</h1>
+            <hr>
+
+            <section class="up_flex">
+
+                <!-- 步驟解說 -->
+                <div class="number"></div>
+                    <span class="triangle"></span>
+                    <span>1</span>
+                    <div class="word">
+                        與狗狗第一次接觸
+                    </div>
+
+                    <img src="./image/step/1.jpg" alt="未顯示">
+
+                </div>
+
+                <div class="number"></div>
+                    <span class="triangle"></span>
+                    <span>2</span>
+                    <div class="word">
+                        填寫申請書
+                    </div>
+                    <img src="./image/step/2.jpg" alt="未顯示">
+                </div>
+
+                
+            
+                <div class="number"></div>
+                    <span class="triangle"></span>
+                    <span>3</span>
+                    <div class="word">
+                        核對相關證件
+                    </div>
+
+                    <img src="./image/step/3.jpg" alt="未顯示">
+                </div>
+
+                
+            
+            </section>
+
+            <section class="down_flex">
+                
+                <div class="number"></div>
+                    <span class="triangle"></span>
+                    <span>4</span>
+                    <div class="word">
+                        核對相關證件
+                    </div>
+
+                    <img src="./image/step/4.jpg" alt="未顯示">
+                </div>
+
+                <div class="number"></div>
+                    <span class="triangle"></span>
+                    <span>5</span>
+                    <div class="word">
+                        諮詢協助服務
+                    </div>
+
+                    <img src="./image/step/5.jpg" alt="未顯示">
+                </div>
+
+                <div class="number"></div>
+                    <span class="triangle"></span>
+                    <span>6</span>
+                    <div class="word">
+                        帶新朋友回家
+                    </div>
+
+                    <img src="./image/step/6.jpg" alt="未顯示">
+                </div>
+            </section>
+        </article>
+
     </main>
     
     <!-- 頁尾 -->
