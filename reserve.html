@@ -99,7 +99,7 @@
         </div>
         
         <article class="reserve_area">
-
+            
             <!-- 動物簡介 -->
             <section class="animal">
                 <h1>預約動物</h1>
@@ -118,61 +118,75 @@
                     地點: 中和收容所
                 </div>
             </section>
-
+            
             <!-- 表單區-->
             <section class="form">
-
+                
                 <!-- 送出表單後顯示預約資訊 _on-->
-                <div class="cover"></div>
-                
-                
-                <h1>填寫預約表單</h1>
-                <hr>
-
-                <label for="name">姓名:</label>
-                <input type="text " placeholder="請輸入姓名" id="name">
-                <br>
-
-                <label for="identity">身分證字號:</label>
-                <input type="text " placeholder="請輸入身分證字號" id="identity">
-                <br>
-
-                <label name="gender">性別:</label>
-                <input type="radio" value="male" name="gender" id="male" checked>
-                <label for="male" name="gender">男</label>
-                <input type="radio" value="female" name="gender" id="female" checked>
-                <label for="female" name="gender">女</label>
-                <br>
-
-                <label for="birthday">出生年月日:</label>
-                <input type="date" id="birthday">
-                <br>
-
-                <label for="phone">手機號碼:</label>
-                <input type="text id="phone" placeholder="0912345678">
-                <br>
-
-                <label for="date">預約日期:</label>
-                <input type="date" id="date">
-                <br>
-
-                <label for="time">預約時段:</label>
-                <select name="time">
-                    <option value="morning">上午</option>
-                    <option value="moon">下午</option>
-                </select>
-                
-                <div class="check">
-                    <input type="checkbox" value="1" >
-                    <label>已詳閱且符合認養條件</label>
+                <div class="cover">
+                    <h2>預約成功</h2>
+                    <hr>
+                    預約日期: 110/8/20
+                    預約時段: 下午
+                    <br>
+                    地點: 中和收容所<br>
+                    地址：新北市中和區興南路三段100號<br>
+                    電話 ：02-86685547
                 </div>
+                
+                <div class="show">
+                    <h1>填寫預約表單</h1>
+                    <hr>
+                    <div class="table">
+                        <label for="name">姓名:</label>
+                    <input type="text " placeholder="請輸入姓名" id="name">
+                    <br>
+                    
+                    <label for="identity">身分證字號:</label>
+                    <input type="text " placeholder="請輸入身分證字號" id="identity">
+                    <br>
+                    
+                    <label name="gender">性別:</label>
+                    <input type="radio" value="male" name="gender" id="male" checked>
+                    <label for="male" name="gender">男</label>
+                    <input type="radio" value="female" name="gender" id="female" checked>
+                    <label for="female" name="gender">女</label>
+                    <br>
+                    
+                    <label for="birthday">出生年月日:</label>
+                    <input type="date" id="birthday">
+                    <br>
+                    
+                    <label for="phone">手機號碼:</label>
+                    <input type="text id="phone" placeholder="0912345678">
+                    <br>
+                    
+                    <label for="date">預約日期:</label>
+                    <input type="date" id="date">
+                    <br>
+                    
+                    <label for="time">預約時段:</label>
+                    <select name="time">
+                        <option value="morning">上午</option>
+                        <option value="moon">下午</option>
+                    </select>
+                    
 
-                       
-                <button class="reserve"type="submit">
-                    送出預約
-                </button>
+                    </div>
+                    
+                    <div class="check">
+                        <input type="checkbox" value="1" >
+                        <label>已詳閱且符合認養條件</label>
+                    </div>
+                    
+                    
+                    <button class="reserve"type="submit">
+                        送出預約
+                    </button>
+                </div>
+                
             </section>
-
+            
             <!-- 認養條件 -->
             <section class="condition">
                 <h1>認養條件</h1>
@@ -185,250 +199,257 @@
                         <li>辦理寵物登記及施打狂犬病疫苗</li>
                         <li>攜帶牽繩，並依交通工具及犬隻大小自備運輸籠<br>
                             (提醒：狗狗未使用運輸籠並站立於機車上是危險的。)</li>
-                    </ul>
-                </div>
-
-                <div class="dog">
-                    <h2>想認養貓咪的民眾請注意，你需要：</h2>
-                    <ul>
-                        <li>須年滿20歲並攜帶身份證件</li>
-                        <li>無動物保護法規禁止認養動物之條件者</li>
-                        <li>準備"硬殼式"外出籠</li>
-                        <li>紗窗(門)做鐵網防護或陽台圍籬網(防止脫逃措施)</li>
-                    </ul>
-                </div>                
-            </section>
-        </article>
-
-        <article class="step">
-            <h1>認養步驟</h1>
-            <hr>
-
-            <section class="up_flex">
-
-                <!-- 步驟解說 -->
-                <div class="number"></div>
-                    <span class="triangle"></span>
-                    <span>1</span>
+                        </ul>
+                    </div>
+                    
+                    <div class="dog">
+                        <h2>想認養貓咪的民眾請注意，你需要：</h2>
+                        <ul>
+                            <li>須年滿20歲並攜帶身份證件</li>
+                            <li>無動物保護法規禁止認養動物之條件者</li>
+                            <li>準備"硬殼式"外出籠</li>
+                            <li>紗窗(門)做鐵網防護或陽台圍籬網(防止脫逃措施)</li>
+                        </ul>
+                    </div>                
+                </section>
+            </article>
+            
+            <article class="step">
+                <h1>認養步驟</h1>
+                <hr>
+                
+                <section class="up_flex">
+                    
+                    <!-- 步驟解說 -->
+                    <div class="number">
+                        <span class="triangle"></span>
+                        <span class="count">1</span>
+                     </div>
                     <div class="word">
                         與狗狗第一次接觸
                     </div>
-
+                    
                     <img src="./image/step/1.jpg" alt="未顯示">
-
+                    
                 </div>
-
-                <div class="number"></div>
-                    <span class="triangle"></span>
-                    <span>2</span>
-                    <div class="word">
-                        填寫申請書
-                    </div>
-                    <img src="./image/step/2.jpg" alt="未顯示">
-                </div>
-
                 
-            
-                <div class="number"></div>
+                <div class="number">
                     <span class="triangle"></span>
-                    <span>3</span>
-                    <div class="word">
-                        核對相關證件
-                    </div>
-
-                    <img src="./image/step/3.jpg" alt="未顯示">
+                    <span class="count">2</span>
                 </div>
-
-                
-            
-            </section>
-
-            <section class="down_flex">
-                
-                <div class="number"></div>
-                    <span class="triangle"></span>
-                    <span>4</span>
-                    <div class="word">
-                        核對相關證件
-                    </div>
-
-                    <img src="./image/step/4.jpg" alt="未顯示">
+                <div class="word">
+                    填寫申請書
                 </div>
-
-                <div class="number"></div>
-                    <span class="triangle"></span>
-                    <span>5</span>
-                    <div class="word">
-                        諮詢協助服務
-                    </div>
-
-                    <img src="./image/step/5.jpg" alt="未顯示">
-                </div>
-
-                <div class="number"></div>
-                    <span class="triangle"></span>
-                    <span>6</span>
-                    <div class="word">
-                        帶新朋友回家
-                    </div>
-
-                    <img src="./image/step/6.jpg" alt="未顯示">
-                </div>
-            </section>
-        </article>
-
-    </main>
-    
-    <!-- 頁尾 -->
-    <footer class="footer"> 
-        
-        <div class="logo"></div>
-        
-        <div class="footer_flex">
-            
-            <div class="home_info">
-                <div class="fb"><i class="fab fa-facebook"></i></div>
-                <h1>瑞芳動物之家</h1>
-                <h2>
-                    地址：新北市瑞芳區靜安路四段(106縣道74.5K清潔隊場區內)
-                    <br>
-                    電話 ：02-24063481
-                    <br>
-                    開放時間：周一至周五
-                    <br>
-                    上午10時-12時
-                    <br>
-                    下午14時-16時
-                </h2>
-            </div>
-            
-            <div class="home_info">
-                <div class="fb"><i class="fab fa-facebook"></i></div>
-                <h1>三芝動物之家</h1>
-                <h2>
-                    地址：新北市三芝區圓山村二坪頂(北18鄉道白沙安樂園附近)
-                    <br>
-                    電話 ：02-26365436
-                    <br>
-                    開放時間：周一至周五
-                    <br>
-                    上午10時-12時
-                    <br>
-                    下午14時-16時
-                </h2>
-            </div>
-            
-            <div class="home_info">
-                <div class="fb"><i class="fab fa-facebook"></i></div>
-                <h1>淡水動物之家</h1>
-                <h2>
-                    地址：新北市淡水區下圭柔山91-3號
-                    <br>
-                    電話 ：02-26267558
-                    <br>
-                    開放時間：周一至周五
-                    <br>
-                    上午10時-12時
-                    <br>
-                    下午14時-16時
-                </h2>
-            </div>
-            
-            
-            <div class="home_info">
-                <div class="fb"><i class="fab fa-facebook"></i></div>
-                <h1>五股動物之家</h1>
-                <h2>
-                    地址：新北市五股區外寮路9-9號
-                    <br>
-                    電話 ：02-82925265
-                    <br>
-                    開放時間：周二至周日
-                    <br>
-                    上午10時-12時
-                    <br>
-                    下午14時-16時
-                </h2>
-            </div>
-            
-            
-            <div class="home_info">
-                <div class="fb"><i class="fab fa-facebook"></i></div>
-                <h1>八里動物之家</h1>
-                <h2>
-                    地址：新北市八里區長坑村6鄰長道坑36號
-                    <br>
-                    電話 ：02-26194428
-                    <br>
-                    開放時間：周一至周五
-                    <br>
-                    上午10時-12時
-                    <br>
-                    下午14時-16時
-                </h2>
+                <img src="./image/step/2.jpg" alt="未顯示">
             </div>
             
             
             
-            <div class="home_info">
-                <div class="fb"><i class="fab fa-facebook"></i></div>
-                <h1>新店動物之家</h1>
-                <h2>
-                    地址：新北市新店區安泰路235號
-                    <br>
-                    電話 ：02-22159462
-                    <br>
-                    開放時間：周二至周六
-                    <br>
-                    上午10時-12時
-                    <br>
-                    下午14時-16時
-                </h2>
+            <div class="number">
+                <span class="triangle"></span>
+                <span class="count">3</span>
+            </div>
+            <div class="word">
+                核對相關證件
             </div>
             
-            
-            
-            <div class="home_info">
-                <div class="fb"><i class="fab fa-facebook"></i></div>
-                <h1>中和動物之家</h1>
-                <h2>
-                    地址：新北市中和區興南路三段100號
-                    <br>
-                    電話 ：02-86685547
-                    <br>
-                    開放時間：周二至周日
-                    <br>
-                    上午10時-12時
-                    <br>
-                    下午14時-16時
-                </h2>
-            </div>
-            
-            
-            <div class="home_info">
-                <div class="fb"><i class="fab fa-facebook"></i></div>
-                <h1>板橋動物之家</h1>
-                <h2>
-                    地址：新北市板橋區板城路28-1號
-                    <br>
-                    電話 ：02-89662158
-                    <br>
-                    開放時間：周二至周日
-                    <br>
-                    上午10時-12時
-                    <br>
-                    下午14時-16時
-                </h2>
-            </div>
-            
+            <img src="./image/step/3.jpg" alt="未顯示">
         </div>
         
         
-    </footer>
+        
+    </section>
+    
+    <section class="down_flex">
+        
+        <div class="number">
+            <span class="triangle"></span>
+            <span class="count">4</span>
+        </div>
+        <div class="word">
+            核對相關證件
+            
+        </div>
+        
+        <img src="./image/step/4.jpg" alt="未顯示">
     
     
+    <div class="number">
+        <span class="triangle"></span>
+        <span class="count">5</span>
+    </div>
+    <div class="word">
+        諮詢協助服務
+    </div>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"> </script>
+    <img src="./image/step/5.jpg" alt="未顯示">
+</div>
+
+<div class="number">
+    <span class="triangle"></span>
+    <span class="count">6</span>
+</div>
+<div class="word">
+    帶新朋友回家
+</div>
+
+<img src="./image/step/6.jpg" alt="未顯示">
+</div>
+</section>
+</article>
+
+</main>
+
+<!-- 頁尾 -->
+<footer class="footer"> 
     
+    <div class="logo"></div>
+    
+    <div class="footer_flex">
+        
+        <div class="home_info">
+            <div class="fb"><i class="fab fa-facebook"></i></div>
+            <h1>瑞芳動物之家</h1>
+            <h2>
+                地址：新北市瑞芳區靜安路四段(106縣道74.5K清潔隊場區內)
+                <br>
+                電話 ：02-24063481
+                <br>
+                開放時間：周一至周五
+                <br>
+                上午10時-12時
+                <br>
+                下午14時-16時
+            </h2>
+        </div>
+        
+        <div class="home_info">
+            <div class="fb"><i class="fab fa-facebook"></i></div>
+            <h1>三芝動物之家</h1>
+            <h2>
+                地址：新北市三芝區圓山村二坪頂(北18鄉道白沙安樂園附近)
+                <br>
+                電話 ：02-26365436
+                <br>
+                開放時間：周一至周五
+                <br>
+                上午10時-12時
+                <br>
+                下午14時-16時
+            </h2>
+        </div>
+        
+        <div class="home_info">
+            <div class="fb"><i class="fab fa-facebook"></i></div>
+            <h1>淡水動物之家</h1>
+            <h2>
+                地址：新北市淡水區下圭柔山91-3號
+                <br>
+                電話 ：02-26267558
+                <br>
+                開放時間：周一至周五
+                <br>
+                上午10時-12時
+                <br>
+                下午14時-16時
+            </h2>
+        </div>
+        
+        
+        <div class="home_info">
+            <div class="fb"><i class="fab fa-facebook"></i></div>
+            <h1>五股動物之家</h1>
+            <h2>
+                地址：新北市五股區外寮路9-9號
+                <br>
+                電話 ：02-82925265
+                <br>
+                開放時間：周二至周日
+                <br>
+                上午10時-12時
+                <br>
+                下午14時-16時
+            </h2>
+        </div>
+        
+        
+        <div class="home_info">
+            <div class="fb"><i class="fab fa-facebook"></i></div>
+            <h1>八里動物之家</h1>
+            <h2>
+                地址：新北市八里區長坑村6鄰長道坑36號
+                <br>
+                電話 ：02-26194428
+                <br>
+                開放時間：周一至周五
+                <br>
+                上午10時-12時
+                <br>
+                下午14時-16時
+            </h2>
+        </div>
+        
+        
+        
+        <div class="home_info">
+            <div class="fb"><i class="fab fa-facebook"></i></div>
+            <h1>新店動物之家</h1>
+            <h2>
+                地址：新北市新店區安泰路235號
+                <br>
+                電話 ：02-22159462
+                <br>
+                開放時間：周二至周六
+                <br>
+                上午10時-12時
+                <br>
+                下午14時-16時
+            </h2>
+        </div>
+        
+        
+        
+        <div class="home_info">
+            <div class="fb"><i class="fab fa-facebook"></i></div>
+            <h1>中和動物之家</h1>
+            <h2>
+                地址：新北市中和區興南路三段100號
+                <br>
+                電話 ：02-86685547
+                <br>
+                開放時間：周二至周日
+                <br>
+                上午10時-12時
+                <br>
+                下午14時-16時
+            </h2>
+        </div>
+        
+        
+        <div class="home_info">
+            <div class="fb"><i class="fab fa-facebook"></i></div>
+            <h1>板橋動物之家</h1>
+            <h2>
+                地址：新北市板橋區板城路28-1號
+                <br>
+                電話 ：02-89662158
+                <br>
+                開放時間：周二至周日
+                <br>
+                上午10時-12時
+                <br>
+                下午14時-16時
+            </h2>
+        </div>
+        
+    </div>
+    
+    
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"> </script>
+
 </body>  
 </html>
