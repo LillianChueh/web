@@ -1,0 +1,24 @@
+main{
+    width: 1200px;
+    height: 1700px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: #ECDFC3;
+}
+
+main div.bread{
+    height: 21px;
+    font-size: 16px;
+    color:#3EB3B2;
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    left:5px;
+}
+
+main div.bread >a {
+    font-size: 16px;
+    color:#3EB3B2;
+    text-decoration: none;
+}
