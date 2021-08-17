@@ -24,7 +24,7 @@ div.carousel >div {
   /* border: 1px solid blue; */
   background-repeat: no-repeat;
   background-position: left;
-  background-size: contain;
+  background-size: cover;
   margin: 0;
   padding: 0;
   position: absolute;
