@@ -24,22 +24,23 @@ main div.bread >a {
 }
 
 main section.map{
-    width: 570px;
+    width: 572px;
     height: 365px;
     position: absolute;
     top: 135px;
     left: 20px;
     display: inline-block;
+    border: 1px solid #5E454B;
 }
 main section.map >iframe{
     width: 570px;
-    height: 365px;
+    height: 363px;
 }
 
 main section.connect{
     width: 535px;
     height: 450px;
-    border: 1px solid #5E454B;
+    border: 1px solid #3EB3B2;
     border-radius: 31px;
     position: absolute;
     top:135px;
@@ -73,6 +74,11 @@ main section.fb{
     position: absolute;
     left: 20px;
     bottom: 100px;
+    border: 1px solid #3EB3B2;
+
+}
+main section.fb >iframe{
+    max-width: 500px;
 }
 
 main section.transport{
