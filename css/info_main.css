@@ -1,4 +1,4 @@
-main{
+    main{
     width: 1200px;
     /* height: 2000px; */
     margin: 0 auto;
@@ -57,7 +57,11 @@ div.info_photo div.small{
     margin-right: 20px;
     margin-top: 5px;
 }
-div.info_photo img{
+div.info_photo div.large img{
+    object-fit: contain;
+}
+
+div.info_photo div.small img{
     max-width: 100%;
 }
 
