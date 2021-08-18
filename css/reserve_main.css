@@ -29,7 +29,7 @@ main article.reserve_area{
     border: 1px solid #E7F5DE;
     border-radius: 28px;
     margin: 0 auto;
-    margin-top:105px;
+    margin-top:100px;
     position: relative;
 }
 article.reserve_area section.animal{
@@ -136,15 +136,31 @@ section.form div.show{
 }
 
 div.show div.table{
-    width: 350px;
+    width:450px;
     line-height: 3;
     /* border: 1px solid black; */
     margin: 0 auto;
     margin-bottom: 50px;
+    font-size: 18px;
+}
+div.table label.question{
+    width:150px;
+    /* border: 1px solid black; */
+    text-align: right;
+    display: inline-block;
+}
+div.table input[type="text"],
+div.table input[type="date"],
+div.table select {
+    width:200px;
+    height: 30px;
+    display: inline-block;
+    font-size: 18px;
 }
 
+
 div.show div.check{
-    margin-top: 120px;
+    margin-top: 50px;
     margin-left: 150px;
 }
 
@@ -158,9 +174,14 @@ button.reserve{
     text-align: center;
     background-color: #5E454B;
     position: absolute;
-    bottom:20px;
+    bottom:0px;
     right: 16px;
     color: #ECDFC3;
+}
+button.reserve:hover{
+    background-color: #3EB3B2;
+    border: 1px solid #3EB3B2;
+    color: #5E454B;
 }
 
 section.condition{
@@ -204,43 +225,86 @@ article.step >hr{
     background-color: #3EB3B2;
 }
 
-article.step section._flex{
-    width: 1100px;
+article.step section.up_flex,
+article.step section.down_flex{
+    width: 1000px;
     height: 250px;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 div.number{
-    width: 70px;
-    height: 70px;
+    width: 300px;
+    height: 230px;
     /* border: 1px solid red; */
     position: relative;
     color: #5E454B;
+    
 }
-div.number span.triangle{
+div.number div.triangle{
     display: inline-block;
-    
-  /*   border: 50px solid red; */
-    
     border-left: 40px solid #3EB3B2;
     border-right: 0px solid green;
     border-top: 35px solid transparent;
     border-bottom: 35px solid transparent;
     width:0px;
     height:0px;
-    position: relative;
-    z-index: 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
   }
 
-  div.number span.count{
+  div.triangle span.count{
       font-size: 28px;
       position: absolute;
-      z-index: 1;
+      z-index: 3;
       top: 50%;
       transform: translate(-50%,-50%);
-      left:20%;
+      left:-25px;
       
   }
 
-  
+  section.up_flex div.word,
+  section.down_flex div.word{
+      width: 300px;
+      height: 35px;
+      z-index: 1;
+      background-color: white;
+      display: inline-block;
+      text-align: center;
+      color: #5E454B;
+      padding: 5px;
+      position: absolute;
+      bottom: 15px;
+      right:0;
+  }
+  section.up_flex div.photo,
+  section.down_flex div.photo{
+      width: 300px;
+      height: 180px;
+      display: inline-block;
+      /* border: 1px solid black; */
+      position: absolute;
+      top: 0;
+      right:0;
+      overflow: hidden;
+  }
+
+  section.up_flex div.photo >img,
+  section.down_flex div.photo >img{
+    min-width: 100%;
+  }
+
+  article.step section.up_flex{
+    margin-right: 100px;
+    
+  }
+article.step section.down_flex{
+    margin-left:100px;
+
+}

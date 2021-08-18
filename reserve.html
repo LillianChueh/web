@@ -138,34 +138,34 @@
                     <h1>填寫預約表單</h1>
                     <hr>
                     <div class="table">
-                        <label for="name">姓名:</label>
-                    <input type="text " placeholder="請輸入姓名" id="name">
+                        <label for="name" class="question">姓名:</label>
+                    <input type="text" placeholder="請輸入姓名" id="name">
                     <br>
                     
-                    <label for="identity">身分證字號:</label>
-                    <input type="text " placeholder="請輸入身分證字號" id="identity">
+                    <label for="identity" class="question">身分證字號:</label>
+                    <input type="text" placeholder="請輸入身分證字號" id="identity">
                     <br>
                     
-                    <label name="gender">性別:</label>
+                    <label name="gender" class="question">性別:</label>
                     <input type="radio" value="male" name="gender" id="male" checked>
                     <label for="male" name="gender">男</label>
                     <input type="radio" value="female" name="gender" id="female" checked>
                     <label for="female" name="gender">女</label>
                     <br>
                     
-                    <label for="birthday">出生年月日:</label>
+                    <label for="birthday" class="question">出生年月日:</label>
                     <input type="date" id="birthday">
                     <br>
                     
-                    <label for="phone">手機號碼:</label>
-                    <input type="text id="phone" placeholder="0912345678">
+                    <label for="phone" class="question">手機號碼:</label>
+                    <input type="text" id="phone" placeholder="0912345678">
                     <br>
                     
-                    <label for="date">預約日期:</label>
+                    <label for="date" class="question">預約日期:</label>
                     <input type="date" id="date">
                     <br>
                     
-                    <label for="time">預約時段:</label>
+                    <label for="time" class="question">預約時段:</label>
                     <select name="time">
                         <option value="morning">上午</option>
                         <option value="moon">下午</option>
@@ -222,39 +222,49 @@
                     
                     <!-- 步驟解說 -->
                     <div class="number">
-                        <span class="triangle"></span>
-                        <span class="count">1</span>
-                     </div>
-                    <div class="word">
-                        與狗狗第一次接觸
+
+                        <div class="triangle">
+                            <span class="count">1</span>
+                        </div>
+                        
+                     
+                        <div class="word">
+                            與狗狗第一次接觸
+                        </div>
+                        <div class="photo">
+                            <img src="./image/step/1.jpg" alt="未顯示">
+                        </div>
+                        
                     </div>
-                    
-                    <img src="./image/step/1.jpg" alt="未顯示">
-                    
-                </div>
                 
                 <div class="number">
-                    <span class="triangle"></span>
-                    <span class="count">2</span>
+                    <div class="triangle">
+                        <span class="count">2</span>
+                    </div>
+                
+                    <div class="word">
+                        填寫申請書
+                    </div>
+                    <div class="photo">
+                        <img src="./image/step/2.jpg" alt="未顯示">
+                    </div>
                 </div>
-                <div class="word">
-                    填寫申請書
-                </div>
-                <img src="./image/step/2.jpg" alt="未顯示">
-            </div>
             
             
             
             <div class="number">
-                <span class="triangle"></span>
-                <span class="count">3</span>
-            </div>
-            <div class="word">
-                核對相關證件
-            </div>
+                <div class="triangle">
+                    <span class="count">3</span>
+                </div>
             
-            <img src="./image/step/3.jpg" alt="未顯示">
-        </div>
+                <div class="word">
+                    核對相關證件
+                </div>
+                
+                <div class="photo">
+                    <img src="./image/step/3.jpg" alt="未顯示">
+                </div>
+            </div>
         
         
         
@@ -263,38 +273,49 @@
     <section class="down_flex">
         
         <div class="number">
-            <span class="triangle"></span>
-            <span class="count">4</span>
-        </div>
-        <div class="word">
-            核對相關證件
+
+            <div class="triangle">
+                <span class="count">4</span>
+            </div>
+        
+            <div class="word">
+                核對相關證件
+                
+            </div>
             
+            <div class="photo">
+                <img src="./image/step/4.jpg" alt="未顯示">
+            </div>
         </div>
         
-        <img src="./image/step/4.jpg" alt="未顯示">
+        
+        <div class="number">
+            <div class="triangle">
+                <span class="count">5</span>
+            </div>
     
-    
-    <div class="number">
-        <span class="triangle"></span>
-        <span class="count">5</span>
-    </div>
-    <div class="word">
-        諮詢協助服務
-    </div>
-    
-    <img src="./image/step/5.jpg" alt="未顯示">
-</div>
+            <div class="word">
+                諮詢協助服務
+            </div>
+            
+            <div class="photo">
+                <img src="./image/step/5.jpg" alt="未顯示">
+            </div>
+        </div>
 
-<div class="number">
-    <span class="triangle"></span>
-    <span class="count">6</span>
-</div>
-<div class="word">
-    帶新朋友回家
-</div>
+        <div class="number">
+            <div class="triangle">
+                <span class="count">6</span>
+            </div>
+        
+            <div class="word">
+                帶新朋友回家
+            </div>
 
-<img src="./image/step/6.jpg" alt="未顯示">
-</div>
+            <div class="photo">
+                <img src="./image/step/6.jpg" alt="未顯示">
+            </div>
+        </div>
 </section>
 </article>
 
