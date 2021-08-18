@@ -115,7 +115,6 @@ main div.button button.reserve{
     font-size: 45px;
     text-align: center;
     background-color: #5E454B;
-    
     position: absolute;
     top:615px;
     right: 216px;
@@ -200,11 +199,16 @@ article.information div.table{
      display: inline-block;
      height: 50px;
      width: 125px;
-     border:1px solid black;
+     border-left:1px solid black;
+     border-top:1px solid black;
      margin: 0;
      padding: 10px;
-     
-     
+ }
+ div.table > ul > li:last-child{
+    border-right:1px solid black;
+ }
+ div.table > ul.table_down > li{
+    border-bottom:1px solid black;
  }
 
  div.table > ul > li.cat{
