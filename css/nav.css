@@ -58,7 +58,7 @@ div.adoption, div.health, div.location{
   padding-right:13px;
   position:relative;
   color: #5E454B;
-  height: 120px;
+  /* height: 100px; */
 }
 
 /* 下拉選單 設定click啟動*/
