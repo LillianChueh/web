@@ -183,13 +183,18 @@ div.talk6_talk {
     /* border:1px solid black; */
     display: inline-block;
     position: absolute;
-    left: 50px;
+    left:50px;
     top:250px;
 }
-div.talk6_talk > div{
+div.talk6_talk div.talk_picture > div{
     position: absolute;
     bottom: 10px;
     left: 150px;
+}
+div.talk6_talk > div div.talkword{
+    position: absolute;
+    left:400px;
+    top:100px;
 }
 
 
@@ -217,7 +222,7 @@ div.talk8_talk {
     left: 100px;
     top:260px;
 }
-div.talk8_talk div.talk_picture > div{
+div.talk8_talk div.talk_picture  >div{
     position: absolute;
     bottom: 0px;
     left: 310px;

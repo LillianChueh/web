@@ -99,15 +99,15 @@ div.adoption::after, div.health::after, div.location::after{
   border-bottom:0px solid blue;
   display:inline-block;
 }
-nav.nav div.list a.heart{
-  color:red;
-  width:55px;
-  height: 55px;
+nav.nav div.list a.heart {
+  color: red;
+  width: 25px;
+  height: 25px;
   margin: 5px;
   display: inline-block;
   position: absolute;
-  right: -40px;
-  top:40px;
+  right: -10px;
+  top: 40px;
   cursor: pointer;
 }
 

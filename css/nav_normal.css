@@ -44,7 +44,7 @@ nav.nav_on{
     padding-left:13px;
     padding-right:13px;
     color: #5E454B;
-    height: 100px;
+    /* height: 100px; */
   }
   nav.nav_on div.list ul.nav_list > li > a:hover{
     background-color: #5E454B;
@@ -61,7 +61,7 @@ nav.nav_on{
     padding-right:13px;
     position:relative;
     color: #5E454B;
-    height: 100px;
+    /* height: 100px; */
   }
   
   /* 下拉選單  設定click啟動*/
@@ -105,17 +105,16 @@ nav.nav_on{
     border-bottom:0px solid blue;
     display:inline-block;
   }
-  nav.nav_on div.list a.heart{
-    color:red;
-    width:55px;
-    height: 55px;
+  nav.nav_on div.list a.heart {
+    color: red;
+    width: 25px;
+    height: 25;
     margin: 5px;
     position: absolute;
-    right: -40px;
-    top:40px;
+    right: -10px;
+    top: 40px;
     cursor: pointer;
-  }
-  
+}
 
   
 

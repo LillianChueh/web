@@ -17,18 +17,18 @@
         </div>
         <div class=list>
             <ul class="nav_list">
-                <li>
+                <li id="focus">
                     <div class="adoption">
                         動物認養
                         <ul class="adoption_list">
                             <li>
-                                <a href="#">認養狗狗</a>
+                                <a href="./adopt.html">認養狗狗</a>
                             </li>
                             <li>
-                                <a href="#">認養貓咪</a>
+                                <a href="./adopt.html">認養貓咪</a>
                             </li>
-                            <li>
-                                <a href="#">預約認養</a>
+                            <li id="focus">
+                                <a href="./reserve.html">預約認養</a>
                             </li>
                         </ul>
                     </div>
@@ -38,26 +38,26 @@
                         醫療資訊
                         <ul class="health_list">
                             <li>
-                                <a href="#">動物醫院</a>
+                                <a href="./hospital.html">動物醫院</a>
                             </li>
                             <li>
-                                <a href="#" target="_blank">絕育管理</a>
+                                <a href="https://www.neuter.ntpc.gov.tw/Login.aspx" target="_blank">絕育管理</a>
                             </li>
                             <li>
-                                <a href="#" target="_blank">寵物樹葬</a>
+                                <a href="https://www.ahiqo.ntpc.gov.tw/cht/index.php?code=list&ids=89" target="_blank">寵物樹葬</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li>
-                    <a href="#">最新消息</a>
+                    <a href="./news.html">最新消息</a>
                 </li>
                 <li>
                     <div class="location">
                         各區動物之家
                         <ul class="location_list">
                             <li>
-                                <a href="#">瑞芳動物之家</a>
+                                <a href="./address.html">瑞芳動物之家</a>
                             </li>
                             <li>
                                 <a href="#">三芝動物之家</a>
@@ -84,7 +84,7 @@
                     </div>
                 </li>
             </ul>
-            <a href="#" class="heart">
+            <a href="./like.html" class="heart">
                 <i class="fas fa-heart"></i>
             </a>
         </div>
@@ -94,8 +94,8 @@
     <main class="main">
         <!-- 麵包屑 -->
         <div class="bread">
-            <a href="#">首頁</a> / 
-            喜愛清單
+            <a href="./home.html">首頁</a> / 
+            <span>喜愛清單</span>
         </div>
         
         <article class="reserve_area">
@@ -137,54 +137,55 @@
                 <div class="show">
                     <h1>填寫預約表單</h1>
                     <hr>
-                    <div class="table">
-                        <label for="name" class="question">姓名:</label>
-                    <input type="text" placeholder="請輸入姓名" id="name">
-                    <br>
-                    
-                    <label for="identity" class="question">身分證字號:</label>
-                    <input type="text" placeholder="請輸入身分證字號" id="identity">
-                    <br>
-                    
-                    <label name="gender" class="question">性別:</label>
-                    <input type="radio" value="male" name="gender" id="male" checked>
-                    <label for="male" name="gender">男</label>
-                    <input type="radio" value="female" name="gender" id="female" checked>
-                    <label for="female" name="gender">女</label>
-                    <br>
-                    
-                    <label for="birthday" class="question">出生年月日:</label>
-                    <input type="date" id="birthday">
-                    <br>
-                    
-                    <label for="phone" class="question">手機號碼:</label>
-                    <input type="text" id="phone" placeholder="0912345678">
-                    <br>
-                    
-                    <label for="date" class="question">預約日期:</label>
-                    <input type="date" id="date">
-                    <br>
-                    
-                    <label for="time" class="question">預約時段:</label>
-                    <select name="time">
-                        <option value="morning">上午</option>
-                        <option value="moon">下午</option>
-                    </select>
-                    
+                    <form action="#" method="POST">
+                        <div class="table">
+                            <label for="name" class="question">姓名:</label>
+                        <input type="text" placeholder="請輸入姓名" id="name">
+                        <br>
+                        
+                        <label for="identity" class="question">身分證字號:</label>
+                        <input type="text" placeholder="請輸入身分證字號" id="identity">
+                        <br>
+                        
+                        <label name="gender" class="question">性別:</label>
+                        <input type="radio" value="male" name="gender" id="male" checked>
+                        <label for="male" name="gender">男</label>
+                        <input type="radio" value="female" name="gender" id="female" checked>
+                        <label for="female" name="gender">女</label>
+                        <br>
+                        
+                        <label for="birthday" class="question">出生年月日:</label>
+                        <input type="date" id="birthday">
+                        <br>
+                        
+                        <label for="phone" class="question">手機號碼:</label>
+                        <input type="text" id="phone" placeholder="0912345678">
+                        <br>
+                        
+                        <label for="date" class="question">預約日期:</label>
+                        <input type="date" id="date">
+                        <br>
+                        
+                        <label for="time" class="question">預約時段:</label>
+                        <select name="time">
+                            <option value="morning">上午</option>
+                            <option value="moon">下午</option>
+                        </select>
+                        
 
+                        </div>
+                        
+                        <div class="check">
+                            <input type="checkbox" value="1" >
+                            <label>已詳閱且符合認養條件</label>
+                        </div>
+                        
+                        
+                        <button class="reserve"type="submit">
+                            送出預約
+                        </button>
                     </div>
-                    
-                    <div class="check">
-                        <input type="checkbox" value="1" >
-                        <label>已詳閱且符合認養條件</label>
-                    </div>
-                    
-                    
-                    <button class="reserve"type="submit">
-                        送出預約
-                    </button>
-                </div>
-                
+                </form>
             </section>
             
             <!-- 認養條件 -->

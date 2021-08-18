@@ -33,13 +33,15 @@ div.carousel >div {
 }
  div.carousel  div.banner1{
   background-image: url("../image/banner1.jpeg");
+  
 }
 div.carousel  div.banner2{
   background-image: url("../image/banner2.jpg");
-  
+ 
 }
 div.carousel  div.banner3{
   background-image: url("../image/banner3.jpg");
+ 
 }
 div.mask::before{
   content: "";

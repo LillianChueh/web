@@ -17,3 +17,9 @@
   footer{
       order: 3;
   }
+  nav.nav_on ul.nav_list li#focus{
+    background-color: #3EB3B2;
+  }
+  main div.bread >span{
+    color: #5E454B;
+  }

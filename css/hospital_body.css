@@ -17,3 +17,11 @@
   footer{
       order: 3;
   }
+
+  nav.nav_on div.health,
+  nav.nav_on div.health ul li:nth-child(1){
+    background-color: #3EB3B2;
+  }
+  main div.bread >span{
+    color: #5E454B;
+  }

@@ -24,3 +24,11 @@
   footer{
       order: 4;
   }
+
+  nav.nav_on div.adoption,
+  nav.nav_on div.adoption ul li:nth-child(1){
+    background-color: #3EB3B2;
+  }
+  main div.bread >span{
+    color: #5E454B;
+  }
