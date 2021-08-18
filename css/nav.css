@@ -110,3 +110,18 @@ nav.nav div.list a.heart{
   top:40px;
   cursor: pointer;
 }
+
+
+  /*滑動顯示下拉選單  */
+div.adoption:hover ul.adoption_list{
+  display: inline-block;
+}
+ 
+
+ div.health:hover ul.health_list{
+  display: inline-block;
+ }
+
+  div.location:hover ul.location_list【
+  display: inline-block;
+  }

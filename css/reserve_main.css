@@ -211,7 +211,7 @@ section.condition div ul{
 article.step{
     width: 1100px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 120px;
     position: relative;
 }
 article.step >h1{
@@ -227,14 +227,12 @@ article.step >hr{
 
 article.step section.up_flex,
 article.step section.down_flex{
-    width: 1000px;
-    height: 250px;
+    width: 1050px;
+    height: 230px;
     display: flex;
     /* border: 1px solid black; */
     display: flex;
     justify-content:space-between ;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 div.number{
@@ -256,7 +254,7 @@ div.number div.triangle{
     position: absolute;
     z-index: 2;
     bottom: 0;
-    left: 0;
+    left: -20px;
   }
 
   div.triangle span.count{
@@ -301,10 +299,12 @@ div.number div.triangle{
   }
 
   article.step section.up_flex{
-    margin-right: 100px;
-    
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
   }
 article.step section.down_flex{
-    margin-left:100px;
+    margin-left:60px;
+    margin-bottom: 100px;
 
 }
