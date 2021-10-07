@@ -4,7 +4,7 @@ nav.nav_on{
     width: 1200px;
     height: 100px;
     margin: 0 auto;
-    position:relative; 
+    position:relative;
     top: 0;
     z-index: 10;
   }
@@ -26,14 +26,14 @@ nav.nav_on{
     padding:0;
     font-size:0;
     left:10px;
-  
+
   }
   ul.nav_list > li{
     list-style:none;
     display:inline-block;
     vertical-align:top;
     font-size:16px;
-  
+
   }
   nav.nav_on div.list ul.nav_list > li > a{
     text-decoration: none;
@@ -50,7 +50,7 @@ nav.nav_on{
     background-color: #5E454B;
     color: #E7F5D4;
   }
-  
+
   nav.nav_on div.list div.adoption,
   nav.nav_on div.list div.health,
   nav.nav_on div.list div.location{
@@ -63,9 +63,9 @@ nav.nav_on{
     color: #5E454B;
     /* height: 100px; */
   }
-  
+
   /* 下拉選單  設定click啟動*/
-  
+
   nav.nav_on ul.adoption_list ,
   nav.nav_on ul.health_list,
   nav.nav_on ul.location_list{
@@ -75,7 +75,7 @@ nav.nav_on{
     right:0;
     top:90%;
     background-color: #e7f5de;
-  
+
     display: none;
   }
   ul.adoption_list >li , ul.health_list >li, ul.location_list >li{
@@ -94,7 +94,7 @@ nav.nav_on{
     background-color: #5E454B;
     color: #E7F5D4;
   }
-  
+
   div.list div.adoption::after,
   div.list div.health::after,
   div.list div.location::after{
@@ -116,13 +116,13 @@ nav.nav_on{
     cursor: pointer;
 }
 
-  
+
 
   /*滑動顯示下拉選單  */
 div.adoption:hover ul.adoption_list{
   display: inline-block;
 }
- 
+
 
  div.health:hover ul.health_list{
   display: inline-block;

@@ -3,7 +3,7 @@ footer.footer{
     height: 585px;
     margin: 0 auto;
     background-color: rgba(223, 202,156, 26%) ;
-    
+
 }
 
 footer.footer div.logo{
@@ -60,4 +60,3 @@ div.footer_flex div.home_info  >h2{
     word-break: keep-all;
     padding-left: 20PX;
 }
-
